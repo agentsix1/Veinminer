@@ -35,9 +35,9 @@ public class VeinminerEnchantmentBootstrapper implements PluginBootstrap {
                 .supportedItems(event.getOrCreateTag(ItemTypeTagKeys.ENCHANTABLE_MINING))
                 .weight(1)
                 .maxLevel(1)
-                .minimumCost(EnchantmentRegistryEntry.EnchantmentCost.of(15, 0))
+                .minimumCost(EnchantmentRegistryEntry.EnchantmentCost.of(35, 0))
                 .maximumCost(EnchantmentRegistryEntry.EnchantmentCost.of(65, 0))
-                .anvilCost(7)
+                .anvilCost(20)
                 .activeSlots(EquipmentSlotGroup.MAINHAND)
         )));
 
